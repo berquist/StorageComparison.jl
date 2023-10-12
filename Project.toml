@@ -1,0 +1,14 @@
+name = "StorageComparison"
+uuid = "057fca75-f5f6-41e4-8d55-67137bc6fb1b"
+authors = ["Eric Berquist <eric.berquist@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
