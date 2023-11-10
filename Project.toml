@@ -4,7 +4,6 @@ authors = ["Eric Berquist <eric.berquist@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
 [deps]
-ASDF = "686f71d1-807d-59a4-a860-28280ea06d7b"
 Exdir = "22fff31a-bb86-4dc7-a268-e891319ab808"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -14,7 +13,9 @@ julia = "1"
 
 [extras]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Aqua", "Test"]
+test = ["Aqua", "NPZ", "PythonCall", "Test"]

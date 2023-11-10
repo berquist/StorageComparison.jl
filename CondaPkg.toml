@@ -1,0 +1,5 @@
+
+[pip.deps]
+exdir = ""
+[deps]
+numpy = ""
