@@ -1,14 +1,14 @@
 module StorageComparison
 
 # using ASDF
-using Exdir
+# using Exdir
 using JLD2
 using HDF5
 
 x1 = rand(2, 3, 4)
 
 # f_as = ASDF.open("comp.asdf")
-f_ex = exdiropen("comp.exdir", "w")
+# f_ex = exdiropen("comp.exdir", "w")
 f_h5 = h5open("comp.h5", "w")
 f_jl = jldopen("comp.jld", "w")
 
@@ -19,8 +19,8 @@ NAME_G1 = "g1"
 
 # Exdir
 
-g_ex = Exdir.create_group(f_ex, NAME_G1)
-g_ex[NAME_DS1] = x1
+# g_ex = Exdir.create_group(f_ex, NAME_G1)
+# g_ex[NAME_DS1] = x1
 
 # JLD2
 
