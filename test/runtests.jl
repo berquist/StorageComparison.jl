@@ -6,6 +6,7 @@ using Aqua
     # @testset "Code quality (Aqua.jl)" begin
     #     Aqua.test_all(StorageComparison)
     # end
-    # Write your tests here.
+    include("asdf.jl")
+    include("exdir.jl")
     include("npz.jl")
 end
