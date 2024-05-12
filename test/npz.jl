@@ -9,9 +9,11 @@ using Test
         b = 10
         x_ref = (b - a) .* rand(Float64, shape) .+ a
         y_ref = rand(a:b, shape)
+
         b_path = "b_rt_jl.npy"
         x_path = "x_rt_jl.npy"
         y_path = "y_rt_jl.npy"
+
         npzwrite(b_path, b)
         npzwrite(x_path, x_ref)
         npzwrite(y_path, y_ref)
