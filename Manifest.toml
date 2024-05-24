@@ -43,7 +43,7 @@ version = "1.6.0"
 
 [[deps.Exdir]]
 deps = ["NPZ", "YAML"]
-git-tree-sha1 = "57438a8a81fca01aa9b8f08e85f0291939e20168"
+git-tree-sha1 = "8c514bf886e57850b74e0320f2b0bc62331a2d3a"
 repo-rev = "dev"
 repo-url = "https://github.com/berquist/Exdir.jl"
 uuid = "22fff31a-bb86-4dc7-a268-e891319ab808"
@@ -87,10 +87,10 @@ deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 [[deps.JLD2]]
-deps = ["FileIO", "MacroTools", "Mmap", "OrderedCollections", "Pkg", "PrecompileTools", "Printf", "Reexport", "Requires", "TranscodingStreams", "UUIDs"]
-git-tree-sha1 = "5ea6acdd53a51d897672edb694e3cc2912f3f8a7"
+deps = ["FileIO", "MacroTools", "Mmap", "OrderedCollections", "Pkg", "PrecompileTools", "Reexport", "Requires", "TranscodingStreams", "UUIDs", "Unicode"]
+git-tree-sha1 = "bdbe8222d2f5703ad6a7019277d149ec6d78c301"
 uuid = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-version = "0.4.46"
+version = "0.4.48"
 
 [[deps.JLLWrappers]]
 deps = ["Artifacts", "Preferences"]
@@ -298,9 +298,9 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[deps.YAML]]
 deps = ["Base64", "Dates", "Printf", "StringEncodings"]
-git-tree-sha1 = "e6330e4b731a6af7959673621e91645eb1356884"
+git-tree-sha1 = "669a78c59a307fa3ebc0a0bffd7ae83bd2184361"
 uuid = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
-version = "0.4.9"
+version = "0.4.10"
 
 [[deps.ZipFile]]
 deps = ["Libdl", "Printf", "Zlib_jll"]
